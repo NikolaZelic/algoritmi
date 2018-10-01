@@ -1,0 +1,6 @@
+backtracking.SimplePuzzle
+backtracking.SimplePuzzle$PositionValues
+backtracking.TestAllCombinations
+backtracking.CryptarithmeticPuzzles
+backtracking.SimplePuzzle$NumberGenerator
+backtracking.UniqueQueue
