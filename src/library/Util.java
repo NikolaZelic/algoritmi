@@ -52,4 +52,10 @@ public final class Util
         return result;
     }
 
+    public static <T> boolean containsDuplicates(List<T> list){
+        var set = new HashSet<T>();
+        for(var el:list)
+            set.add(el);
+        return ! (set.size() == list.size());
+    }
 }
