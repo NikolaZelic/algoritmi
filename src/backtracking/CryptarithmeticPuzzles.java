@@ -20,10 +20,10 @@ public class CryptarithmeticPuzzles
     
 //    public static void main(String[] args) {
 //        String 
-//            a = "BASE",
+//            SimpleGrahpNode = "BASE",
 //            b = "BALL",
 //            rez = "GAMES";
-//        SimplePuzzle puzzle = new SimplePuzzle(a, b, rez);
+//        SimplePuzzle puzzle = new SimplePuzzle(SimpleGrahpNode, b, rez);
 //        puzzle.write();
 //        System.out.println( puzzle.solve() );
 //        puzzle.write();

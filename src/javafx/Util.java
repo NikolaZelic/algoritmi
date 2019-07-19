@@ -27,7 +27,7 @@ public class Util
             StringTokenizer tokenzier = new StringTokenizer(line, ",");
             int a = tokenzier.countTokens();
             if(a>colNum)
-                throw new IllegalArgumentException("File doesn't have a proper format. Line "+ i+" has more numbers then it should.");
+                throw new IllegalArgumentException("File doesn't have SimpleGrahpNode proper format. Line "+ i+" has more numbers then it should.");
                 
             int j=0;
             while(tokenzier.hasMoreTokens()){

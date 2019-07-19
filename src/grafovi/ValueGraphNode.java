@@ -40,9 +40,9 @@ public class ValueGraphNode<T> implements Iterable<ValueGraphNode<T>> {
     @Override
     public String toString(){
         StringBuilder bld = new StringBuilder();
-        bld.append("GraphNode: ").append(value.toString());
+        bld.append("SimpleGrahpNode: ").append(value.toString());
         if(connections!=null){
-            bld.append(" connections: ");
+            bld.append(" neighbors: ");
             for(var i:connections){
                 bld.append(i.value.toString()).append(", ");
             }

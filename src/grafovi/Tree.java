@@ -66,7 +66,7 @@ public class Tree
     public static void main(String[] args)
     {
         Tree tree = new Tree();
-        tree.put("a");
+        tree.put("SimpleGrahpNode");
         tree.put("qwer");
         tree.put("c");
         tree.writeAll();

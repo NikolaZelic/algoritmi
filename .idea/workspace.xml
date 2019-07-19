@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be94268c-1f82-4a44-93fb-4203bf21d6a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/grafovi/GarphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafovi/GarphUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafovi/Labyrinth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafovi/ValueGraphNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grafovi/ZIvkovicPretragaUDubinu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javafx/MatrixAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javafx/Playground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javafx/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javafx/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafovi/PretragaGrafova.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafovi/PretragaUDubinu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafovi_lib/GraphNodeVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grafovi_lib/SimpleGrahpNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/AdjacencyListGraph$AdjacencyListGraphIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/AdjacencyListGraph$AdjacencyListGraphIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/AdjacencyMatrixGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/AdjacencyMatrixGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/GarphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/GarphNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/Labyrinth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/SimpleSolve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/ValueGraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/grafovi/ValueGraphNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/javafx/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/javafx/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritmi/matrice/library/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritmi/matrice/library/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/CryptarithmeticPuzzles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/CryptarithmeticPuzzles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafovi/GarphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafovi/GarphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafovi/Labyrinth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafovi/Labyrinth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafovi/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafovi/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grafovi/ValueGraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grafovi/ValueGraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javafx/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javafx/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrice/library/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrice/library/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,85 +35,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2107012431">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="14610" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="14610" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="algoritmi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/grafovi/ZIvkovicPretragaUDubinu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1046">
-              <caret line="453" column="9" lean-forward="true" selection-start-line="453" selection-start-column="9" selection-end-line="453" selection-end-column="9" />
-              <folding>
-                <element signature="class#Node#0" />
-                <element signature="method#toString#0;class#Node#0" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="class#AdjacencyListGraph#0" />
-                <element signature="method#AdjacencyListGraph#0;class#AdjacencyListGraph#0" />
-                <element signature="method#DepthFirstSearch#0;class#AdjacencyListGraph#0" />
-                <element signature="method#dfs#0;class#AdjacencyListGraph#0" />
-                <element signature="method#addConnection#0;class#AdjacencyListGraph#0" />
-                <element signature="method#toString#0;class#AdjacencyListGraph#0" />
-                <element signature="class#AdjacencyListGraphIterator#0;class#AdjacencyListGraph#0" />
-                <element signature="method#AdjacencyListGraphIterator#0;class#AdjacencyListGraphIterator#0;class#AdjacencyListGraph#0" />
-                <element signature="method#dfs#0;class#AdjacencyListGraphIterator#0;class#AdjacencyListGraph#0" />
-                <element signature="method#AdjacencyMatrixGraph#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#toString#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#addConnection#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#DepthFirstSearch#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#dfs#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#refreshVisit#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#writeTimes#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#numberOfComponents#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#allAcestries#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#dfsAcestries#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#getNodePosition#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#allDescendants#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#dfsDescendants#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#tackaArtikulacije#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#dfsArtikulacije#0;class#AdjacencyMatrixGraph#0" />
-                <element signature="method#isCycle#0;class#AdjacencyMatrixGraph#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,6 +52,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>format</find>
+      <find>for</find>
+      <find>form</find>
+      <find>linkedList</find>
+      <find>add</find>
+      <find>nodeNames</find>
+      <find>itera</find>
+      <find>defa</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -133,60 +81,91 @@
         <option value="$PROJECT_DIR$/src/grafovi/GarphUtility.java" />
         <option value="$PROJECT_DIR$/src/grafovi/ValueGraphNode.java" />
         <option value="$PROJECT_DIR$/src/library/Util.java" />
-        <option value="$PROJECT_DIR$/src/grafovi/Labyrinth.java" />
         <option value="$PROJECT_DIR$/src/grafovi/ZIvkovicPretragaUDubinu.java" />
+        <option value="$PROJECT_DIR$/src/grafovi/Labyrinth.java" />
+        <option value="$PROJECT_DIR$/src/grafovi/PretragaUDubinu.java" />
+        <option value="$PROJECT_DIR$/src/grafovi/Pretraga.java" />
+        <option value="$PROJECT_DIR$/src/grafovi/PretragaGrafova.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/a.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/Test.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/GraphUtility.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/EditableGraphState.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/SimpleGrahpNode.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/GraphState.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/GraphNode.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/EditableGraphNode.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/Graph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/SimpleGraphState.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/NeighborhoodListGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_lib/GraphNodeVisitor.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/PrebrojavanjePovezanihKomponenti.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/ShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/AStartGraphSearch.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/DijkstrasShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/Maze.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/MazeGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/DostupniCvorovi.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/DirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/Graph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/TestAciklicnosti.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/WeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/DisjointSet.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/KruskovAlgoritam.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/PrimovAlgoritam.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/WeightenmatrixGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/WeightenMatrixGraph.java" />
+        <option value="$PROJECT_DIR$/src/grafovi_zadaci/FloydsAlgorithm.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="27" />
+    <option name="y" value="33" />
+    <option name="width" value="1390" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Algoritmi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmi" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoritmi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmi" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoritmi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Algoritmi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmi" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoritmi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="grafovi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="grafovi_zadaci" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538731551285" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552409443950" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -212,13 +191,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdjacencyMatrixGraph">
-    <configuration name="AdjacencyListGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grafovi.AdjacencyListGraph" />
+  <component name="RunManager" selected="Application.FloydsAlgorithm">
+    <configuration name="DisjointSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grafovi_zadaci.DisjointSet" />
       <module name="Algoritmi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grafovi.*" />
+          <option name="PATTERN" value="grafovi_zadaci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdjacencyMatrixGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grafovi.AdjacencyMatrixGraph" />
+    <configuration name="FloydsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grafovi_zadaci.FloydsAlgorithm" />
       <module name="Algoritmi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grafovi.*" />
+          <option name="PATTERN" value="grafovi_zadaci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarphUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grafovi.GarphUtility" />
+    <configuration name="KruskovAlgoritam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grafovi_zadaci.KruskovAlgoritam" />
       <module name="Algoritmi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grafovi.*" />
+          <option name="PATTERN" value="grafovi_zadaci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Labyrinth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grafovi.Labyrinth" />
+    <configuration name="PrimovAlgoritam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grafovi_zadaci.PrimovAlgoritam" />
       <module name="Algoritmi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grafovi.*" />
+          <option name="PATTERN" value="grafovi_zadaci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javafx.Test" />
+    <configuration name="WeightenMatrixGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grafovi_zadaci.WeightenMatrixGraph" />
       <module name="Algoritmi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javafx.*" />
+          <option name="PATTERN" value="grafovi_zadaci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,19 +258,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GarphUtility" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Labyrinth" />
-      <item itemvalue="Application.AdjacencyListGraph" />
-      <item itemvalue="Application.AdjacencyMatrixGraph" />
+      <item itemvalue="Application.KruskovAlgoritam" />
+      <item itemvalue="Application.PrimovAlgoritam" />
+      <item itemvalue="Application.DisjointSet" />
+      <item itemvalue="Application.WeightenMatrixGraph" />
+      <item itemvalue="Application.FloydsAlgorithm" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdjacencyMatrixGraph" />
-        <item itemvalue="Application.AdjacencyListGraph" />
-        <item itemvalue="Application.Labyrinth" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.GarphUtility" />
+        <item itemvalue="Application.FloydsAlgorithm" />
+        <item itemvalue="Application.WeightenMatrixGraph" />
+        <item itemvalue="Application.PrimovAlgoritam" />
+        <item itemvalue="Application.KruskovAlgoritam" />
+        <item itemvalue="Application.DisjointSet" />
       </list>
     </recent_temporary>
   </component>
@@ -305,8 +284,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538381689108</updated>
+      <workItem from="1563364579911" duration="730000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,26 +301,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28534704" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3299356" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26233906" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4838275" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6185984" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.62886596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.6849943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43871707" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884097" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32875144" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32875144" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50107294" side_tool="true" weight="0.47995418" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32875144" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.4100802" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,10 +332,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -376,78 +363,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/grafovi/GraphNode.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grafovi/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/Playground.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.base/javafx/beans/binding/NumberExpressionBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.base/javafx/beans/binding/IntegerExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.base/javafx/beans/property/ReadOnlyIntegerProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="41" column="64" lean-forward="true" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.base/javafx/beans/property/IntegerProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.graphics/javafx/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="350" column="25" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javafx/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="44" column="71" lean-forward="true" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/grafovi/GarphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/src/grafovi/GarphUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -476,30 +392,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grafovi/Labyrinth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="80" column="67" lean-forward="true" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
-          <folding>
-            <element signature="class#Labyrinth#0" />
-            <element signature="method#start#0;class#Test#0" />
-            <element signature="method#SimpleSolve#0;class#SimpleSolve#0" />
-            <element signature="method#solve#0;class#SimpleSolve#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Iterator.java" />
     <entry file="file://$PROJECT_DIR$/src/grafovi/ZIvkovicPretragaUDubinu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1046">
-          <caret line="453" column="9" lean-forward="true" selection-start-line="453" selection-start-column="9" selection-end-line="453" selection-end-column="9" />
+        <state relative-caret-position="324">
+          <caret line="173" column="30" lean-forward="true" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
           <folding>
             <element signature="class#Node#0" />
             <element signature="method#toString#0;class#Node#0" />
@@ -532,6 +429,544 @@
             <element signature="method#tackaArtikulacije#0;class#AdjacencyMatrixGraph#0" />
             <element signature="method#dfsArtikulacije#0;class#AdjacencyMatrixGraph#0" />
             <element signature="method#isCycle#0;class#AdjacencyMatrixGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi/Labyrinth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="896" selection-start-line="896" selection-end-line="896" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2950" selection-start-line="2950" selection-end-line="2950" />
+          <folding>
+            <element signature="e#118101#118102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/Test.java" />
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="407" column="42" lean-forward="true" selection-start-line="407" selection-start-column="42" selection-end-line="407" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/GraphUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/SimpleGrahpNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/GraphState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/EditableGraphState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi/GarphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="381" column="19" lean-forward="true" selection-start-line="381" selection-start-column="19" selection-end-line="381" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/GraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/SimpleGraphState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getNodesNumber#0;class#SimpleGraphState#0" />
+            <element signature="method#toString#0;class#SimpleGraphState#0" />
+            <element signature="method#formatNodes#0;class#SimpleGraphState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/EditableGraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/GraphNodeVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_lib/NeighborhoodListGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addNode#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#addNodes#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#addConnection#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#depthFirstSearch#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#dfs#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#breadthFirstSearch#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#bfs#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#main#0;class#NeighborhoodListGraph#0" />
+            <element signature="method#zivkovicTest#0;class#NeighborhoodListGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi/PretragaGrafova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dodajCvor#0;class#PretragaGrafova#0" />
+            <element signature="method#getPozicija#0;class#PretragaGrafova#0" />
+            <element signature="method#dodajVezu#0;class#PretragaGrafova#0" />
+            <element signature="method#setStanje#0;class#PretragaGrafova#0" />
+            <element signature="method#exceptionNaNepostojeciCvor#0;class#PretragaGrafova#0" />
+            <element signature="method#naziviCvorova#0;class#PretragaGrafova#0" />
+            <element signature="method#getPrethodnik#0;class#PretragaGrafova#0" />
+            <element signature="method#toString#0;class#PretragaGrafova#0" />
+            <element signature="method#setVremeIzlaska#0;class#PretragaGrafova#0" />
+            <element signature="method#setVremeUlaska#0;class#PretragaGrafova#0" />
+            <element signature="method#setPrethodni#0;class#PretragaGrafova#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi/PretragaUDubinu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#resetujStanja#0;class#MatricniGrafDubina#0" />
+            <element signature="method#MatricniGrafDubina#0;class#MatricniGrafDubina#0" />
+            <element signature="method#MatricniGrafDubina#1;class#MatricniGrafDubina#0" />
+            <element signature="method#setVeza#0;class#MatricniGrafDubina#0" />
+            <element signature="method#setStanje#0;class#MatricniGrafDubina#0" />
+            <element signature="method#getNaziv#0;class#MatricniGrafDubina#0" />
+            <element signature="method#getStanje#0;class#MatricniGrafDubina#0" />
+            <element signature="method#getSusedniCvorovi#0;class#MatricniGrafDubina#0" />
+            <element signature="method#postojiVeza#0;class#MatricniGrafDubina#0" />
+            <element signature="method#validnePozocije#0;class#MatricniGrafDubina#0" />
+            <element signature="method#validnaPozicija#0;class#MatricniGrafDubina#0" />
+            <element signature="method#toString#0;class#MatricniGrafDubina#0" />
+            <element signature="method#pretragaUDubinu#0;class#MatricniGrafDubina#0" />
+            <element signature="method#pretragaSusednihCvorova#0;class#MatricniGrafDubina#0" />
+            <element signature="method#resetujStanja#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#resetujSusedstva#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#getSusedi#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#getPozicija#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#getNaziv#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#getStanje#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#setStanje#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#setVeza#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#setVeza#1;class#LisnatiGrafDubina#0" />
+            <element signature="n#!!block;n#validnaPozicija#0;n#LisnatiGrafDubina#0" />
+            <element signature="method#validnePozicije#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#pretragaUSirinu#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#pretragaSusednihCvorovaUSirinu#0;class#LisnatiGrafDubina#0" />
+            <element signature="method#pretragaSusednihCvorovaUSirinu#1;class#LisnatiGrafDubina#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="131" column="25" lean-forward="true" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+          <folding>
+            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#6404#6405#0" expanded="true" />
+            <element signature="e#35423#35453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/AStartGraphSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="class#Coordinate#0;class#AStartGraphSearch#0" />
+            <element signature="method#Coordinate#0;class#Coordinate#0;class#AStartGraphSearch#0" />
+            <element signature="method#Coordinate#1;class#Coordinate#0;class#AStartGraphSearch#0" />
+            <element signature="class#ResultRow#0;class#AStartGraphSearch#0" />
+            <element signature="method#ResultRow#0;class#ResultRow#0;class#AStartGraphSearch#0" />
+            <element signature="method#toString#0;class#ResultRow#0;class#AStartGraphSearch#0" />
+            <element signature="method#calculateHeuristicDistance#0;class#AStartGraphSearch#0" />
+            <element signature="method#startResultSet#0;class#AStartGraphSearch#0" />
+            <element signature="e#3096#3229#1" />
+            <element signature="method#getResultRow#0;class#AStartGraphSearch#0" />
+            <element signature="e#3363#3444#1" />
+            <element signature="method#lowestEstimationNode#0;class#AStartGraphSearch#0" />
+            <element signature="method#resultSet#0;class#AStartGraphSearch#0" />
+            <element signature="method#AStartGraphSearch#0;class#AStartGraphSearch#0" />
+            <element signature="method#addNode#0;class#AStartGraphSearch#0" />
+            <element signature="method#setNodeCoordinate#0;class#AStartGraphSearch#0" />
+            <element signature="method#setNodeCoordinate#1;class#AStartGraphSearch#0" />
+            <element signature="method#setNodeCoordinate#2;class#AStartGraphSearch#0" />
+            <element signature="method#defaultCoordinates3#0;class#AStartGraphSearch#0" />
+            <element signature="method#getNodeCoordiante#0;class#AStartGraphSearch#0" />
+            <element signature="method#toString#0;class#AStartGraphSearch#0" />
+            <element signature="e#7539#7639#1" />
+            <element signature="method#main#0;class#AStartGraphSearch#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/MazeGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+          <folding>
+            <element signature="method#MazeGraph#0;class#MazeGraph#0" />
+            <element signature="method#nodesStream#0;class#MazeGraph#0" />
+            <element signature="method#isCoordinateNode#0;class#MazeGraph#0" />
+            <element signature="method#checkIsCoordinateNode#0;class#MazeGraph#0" />
+            <element signature="method#getNodeNeighbors#0;class#MazeGraph#0" />
+            <element signature="method#getNodeNeighbors#1;class#MazeGraph#0" />
+            <element signature="n#!!block;n#setNodeState#0;n#MazeGraph#0" />
+            <element signature="method#setPreviousNode#0;class#MazeGraph#0" />
+            <element signature="method#getNodePath#0;class#MazeGraph#0" />
+            <element signature="method#shortestPath#0;class#MazeGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <element signature="class#Coordinate#0;class#Maze#0" />
+            <element signature="class#MazeIterator#0;class#Maze#0" />
+            <element signature="method#MazeIterator#0;class#MazeIterator#0;class#Maze#0" />
+            <element signature="n#!!block;n#getTopCount#0;n#Maze#0" />
+            <element signature="n#!!block;n#getLeftCount#0;n#Maze#0" />
+            <element signature="n#!!block;n#getCellCount#0;n#Maze#0" />
+            <element signature="method#fillMatrixWithSpaces#0;class#Maze#0" />
+            <element signature="method#Maze#0;class#Maze#0" />
+            <element signature="method#Maze#1;class#Maze#0" />
+            <element signature="n#!!block;n#Maze#2;n#Maze#0" />
+            <element signature="n#!!block;n#Maze#3;n#Maze#0" />
+            <element signature="method#coordinateExist#0;class#Maze#0" />
+            <element signature="method#checkCoordinate#0;class#Maze#0" />
+            <element signature="method#getCell#0;class#Maze#0" />
+            <element signature="method#setCell#0;class#Maze#0" />
+            <element signature="method#toString#0;class#Maze#0" />
+            <element signature="method#defaultMaze1#0;class#Maze#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.sql/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/DirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="method#addConnection#0;class#DirectedGraph#0" />
+            <element signature="method#defaultGraph1#0;class#DirectedGraph#0" />
+            <element signature="method#depthFirstSearch#0;class#DirectedGraph#0" />
+            <element signature="method#dfs#0;class#DirectedGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/TestAciklicnosti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="method#imaCiklus#0;class#TestAciklicnosti#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/DostupniCvorovi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="method#dostupniCvorovi#0;class#DostupniCvorovi#0" />
+            <element signature="method#dfs#0;class#DostupniCvorovi#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/PrebrojavanjePovezanihKomponenti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="2380" column="22" selection-start-line="2380" selection-start-column="22" selection-end-line="2380" selection-end-column="22" />
+          <folding>
+            <element signature="e#111848#111849#0" expanded="true" />
+            <element signature="e#111905#111906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clean#0;class#Graph#0" />
+            <element signature="method#refresh#0;class#Graph#0" />
+            <element signature="method#checkDuplicateNode#0;class#Graph#0" />
+            <element signature="method#notExistedNodeException#0;class#Graph#0" />
+            <element signature="method#checkNodePosition#0;class#Graph#0" />
+            <element signature="method#defaultGraph1#0;class#Graph#0" />
+            <element signature="method#getNodePosition#0;class#Graph#0" />
+            <element signature="method#getNodeNeighbors#0;class#Graph#0" />
+            <element signature="method#getNodeNeighbors#1;class#Graph#0" />
+            <element signature="method#getNodeState#0;class#Graph#0" />
+            <element signature="method#setNodeState#0;class#Graph#0" />
+            <element signature="method#getNodeTimeIn#0;class#Graph#0" />
+            <element signature="method#setNodeTimeIn#0;class#Graph#0" />
+            <element signature="method#getNodeTimeOut#0;class#Graph#0" />
+            <element signature="method#setNodeTimeOut#0;class#Graph#0" />
+            <element signature="method#addNode#0;class#Graph#0" />
+            <element signature="method#addNodes#0;class#Graph#0" />
+            <element signature="method#addConnection#0;class#Graph#0" />
+            <element signature="method#addConnection#1;class#Graph#0" />
+            <element signature="method#getNodeName#0;class#Graph#0" />
+            <element signature="method#getPreviousNode#0;class#Graph#0" />
+            <element signature="method#setPreviousNode#0;class#Graph#0" />
+            <element signature="method#toString#0;class#Graph#0" />
+            <element signature="method#getStateName#0;class#Graph#0" />
+            <element signature="method#formatNodes#0;class#Graph#0" />
+            <element signature="method#getNodePath#0;class#Graph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/WeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="method#WeightedGraph#0;class#WeightedGraph#0" />
+            <element signature="method#getDistance#0;class#WeightedGraph#0" />
+            <element signature="method#getDistance#1;class#WeightedGraph#0" />
+            <element signature="method#getNodeNeighborsDistance#0;class#WeightedGraph#0" />
+            <element signature="method#clean#0;class#WeightedGraph#0" />
+            <element signature="method#refresh#0;class#WeightedGraph#0" />
+            <element signature="method#addNode#0;class#WeightedGraph#0" />
+            <element signature="method#addConnection#0;class#WeightedGraph#0" />
+            <element signature="method#addConnection#1;class#WeightedGraph#0" />
+            <element signature="method#toString#0;class#WeightedGraph#0" />
+            <element signature="method#defaultGraph1#0;class#WeightedGraph#0" />
+            <element signature="class#NodeNeighbor#0;class#WeightedGraph#0" />
+            <element signature="method#NodeNeighbor#0;class#NodeNeighbor#0;class#WeightedGraph#0" />
+            <element signature="method#defaultGraph2#0;class#WeightedGraph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/DisjointSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="method#findElementPosition#0;class#DisjointSet#0" />
+            <element signature="method#find#0;class#DisjointSet#0" />
+            <element signature="method#unify#0;class#DisjointSet#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/KruskovAlgoritam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="class#Connection#0;class#KruskovAlgoritam#0" />
+            <element signature="method#equals#0;class#Connection#0;class#KruskovAlgoritam#0" />
+            <element signature="method#minimalSpamingTree#0;class#KruskovAlgoritam#0" />
+            <element signature="method#main#0;class#KruskovAlgoritam#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/PrimovAlgoritam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Connection#0;class#PrimovAlgoritam#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/DijkstrasShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding>
+            <element signature="class#ResultRow#0;class#DijkstrasShortestPath#0" />
+            <element signature="method#startRezalt#0;class#DijkstrasShortestPath#0" />
+            <element signature="method#getResultRow#0;class#DijkstrasShortestPath#0" />
+            <element signature="method#getPath#0;class#DijkstrasShortestPath#0" />
+            <element signature="method#getShortestPathsFrom#0;class#DijkstrasShortestPath#0" />
+            <element signature="method#main#0;class#DijkstrasShortestPath#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/FloydsAlgorithm" />
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/FloydsAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grafovi_zadaci/WeightenMatrixGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!block;n#getNodeName#0;n#WeightenMatrixGraph#0" />
+            <element signature="method#getNodePos#0;class#WeightenMatrixGraph#0" />
+            <element signature="method#toString#0;class#WeightenMatrixGraph#0" />
+            <element signature="method#setWeight#1;class#WeightenMatrixGraph#0" />
           </folding>
         </state>
       </provider>
